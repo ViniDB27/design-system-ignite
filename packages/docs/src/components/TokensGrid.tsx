@@ -1,8 +1,8 @@
 import '../styles/tokens-grid.css'
 
 interface TokensGridProps {
-  readonly tokens: Record<string, string>
-  readonly hasRemValue?: boolean
+  tokens: Record<string, string>
+  hasRemValue?: boolean
 }
 
 export function TokensGrid({ tokens, hasRemValue = false }: TokensGridProps) {
